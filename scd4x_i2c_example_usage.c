@@ -73,6 +73,7 @@ int main(void) {
             printf("CO2: %u ppm\n", co2);
             printf("Temperature: %.2f °C\n", temperature);
             printf("Humidity: %.2f RH\n", humidity);
+            printf(timestamp,co2,temperature,humidity);
         }
     }
 
